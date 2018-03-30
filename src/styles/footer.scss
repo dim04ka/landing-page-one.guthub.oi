@@ -1,0 +1,31 @@
+.footer {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #141414;
+    padding: 40px 0;
+    h4 {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .row {
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    a {
+        color: #bcbcbc;
+        text-decoration: none;
+        &:hover {
+            color: lighten(#bcbcbc,10%);
+        }
+    }
+    ul {
+        list-style-type: none;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,43 @@
+@media (max-width: 550px) {
+    .header_content {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header_btn {
+     display: block;
+    }
+    .header_menu{
+     flex-direction: column;
+     display: none;
+    }
+    .header_menu_active {
+      display: block;
+    }
+    .projects {
+        i {
+            padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .projects{
+        text-align: center;
+        &_content {
+            .fa {
+                padding: 10px;
+                flex-direction: column;
+
+            }
+        }
+    }
+    .sponsor {
+        .row {
+            justify-content: center; 
+        }
+    }
+    .our_btn{
+        left: 40%;
+        top: 36%;
+    }
+}

@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css', integrity='sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy', crossorigin='anonymous')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat|Raleway', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='styles/style.css')
+  body
+    #header.header
+      .container
+        img.header_img_bg(src='img/header-bg.jpg', alt='header_bg', border='0' )
+        .row.justify-content-between.align-items-center
+          .col-md-auto
+            .header_logo
+              img(src='img/logo.png', width='31px', height='25px', alt='logo')
+          .col-md-auto
+            button#btn.header_btn
+              i.fa.fa-align-justify
+            ul.header_menu
+              li.menu-item
+                a.active(href='#home') home
+              li.menu-item
+                a(href='#our') about
+              li.menu-item
+                a(href='#work') work
+              li.menu-item
+                a(href='#process') process
+              li.menu-item
+                a(href='#services') services
+              li.menu-item
+                a(href='#testcontact') testcontact
+              li.menu-item
+                a(href='#contact') Contact
+        .row.justify-content-end
+          .col-12.col-md-6
+            .header_content
+              h2 We Design and Develop
+              p
+                | We are a new design studio based in USA. We have over
+                | 20 years of combined experience, and know a thing or two
+                | about designing websites and mobile apps.
+              a(href='#') contact us
